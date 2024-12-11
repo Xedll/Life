@@ -83,7 +83,7 @@ private:
 		for (int i = 0; i < height; i++) { //Birth
 			for (int j = 0; j < width; j++) {
 				Dot dot(j, i, _matrix);
-				dot.life = false;
+				dot.alive = false;
 				if (dot.checkLife()) {
 					forCreate.push_back({ j , i });
 				}
