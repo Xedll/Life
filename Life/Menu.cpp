@@ -18,6 +18,7 @@ void Menu::Create() {
 				break;
 			case 3:
 				p_GameWindow.Run();
+				_Inputting = false;
 				break;
 			case 4:
 				std::cout << "Exiting..." << std::endl;
