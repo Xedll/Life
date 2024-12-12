@@ -21,4 +21,5 @@ int main()
 	}
 	Menu* MainGame = new Menu(height, width, interval);
 	MainGame->Create();
+	std::getchar();
 }
